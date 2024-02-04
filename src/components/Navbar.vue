@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-sm navbar-dark  px-3">
-    <a class="navbar-brand d-flex" href="http://danawhalen.glossgenius.com">
+    <a class="navbar-brand d-flex" href="https://danawhalen.glossgenius.com/services">
       <div class="d-flex flex-column align-items-center bg-dark py-1 px-3 rounded">
         Book Now
         <!-- <img alt="logo" src="../assets/img/cw-logo.png" height="45" /> -->
