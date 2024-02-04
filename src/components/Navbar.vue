@@ -1,11 +1,11 @@
 <template>
   <nav class="navbar navbar-expand-sm navbar-dark  px-3">
-    <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
+    <a class="navbar-brand d-flex" href="http://danawhalen.glossgenius.com">
       <div class="d-flex flex-column align-items-center bg-dark py-1 px-3 rounded">
         Book Now
         <!-- <img alt="logo" src="../assets/img/cw-logo.png" height="45" /> -->
       </div>
-    </router-link>
+    </a>
     <!-- <div>
       <button class="btn text-light" @click="toggleTheme">
         <i class="mdi" :class="theme == 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'"></i>
