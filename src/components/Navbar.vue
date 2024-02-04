@@ -1,16 +1,16 @@
 <template>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark px-3">
+  <nav class="navbar navbar-expand-sm navbar-dark  px-3">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="d-flex flex-column align-items-center">
+      <div class="d-flex flex-column align-items-center bg-dark py-1 px-3 rounded">
         Book Now
         <!-- <img alt="logo" src="../assets/img/cw-logo.png" height="45" /> -->
       </div>
     </router-link>
-    <div>
+    <!-- <div>
       <button class="btn text-light" @click="toggleTheme">
         <i class="mdi" :class="theme == 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'"></i>
       </button>
-    </div>
+    </div> -->
     <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
