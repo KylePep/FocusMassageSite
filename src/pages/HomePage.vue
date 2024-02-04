@@ -6,6 +6,37 @@
       </h1>
     </div>
   </div>
+  <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
+    <div class="home-card p-5 card align-items-center shadow rounded elevation-3">
+      <h2>
+        Location
+      </h2>
+    </div>
+  </div>
+  <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
+    <div class="home-card p-5 card align-items-center shadow rounded elevation-3">
+      <h2>
+        Hours
+      </h2>
+    </div>
+  </div>
+  <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
+    <div class="home-card p-5 card align-items-center shadow rounded elevation-3">
+      <h2>
+        Services
+      </h2>
+    </div>
+  </div>
+  <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
+    <div class="home-card p-5 card align-items-center shadow rounded elevation-3">
+      <h2>
+        Stuff
+      </h2>
+      <h2>
+        Things
+      </h2>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -21,7 +52,7 @@ export default {
 <style scoped lang="scss">
 .home {
   display: grid;
-  height: 80vh;
+  height: 40vh;
   place-content: center;
   text-align: center;
   user-select: none;

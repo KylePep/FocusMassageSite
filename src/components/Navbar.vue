@@ -3,30 +3,8 @@
     <a class="navbar-brand d-flex" href="https://danawhalen.glossgenius.com/services">
       <div class="d-flex flex-column align-items-center bg-dark py-1 px-3 rounded">
         Book Now
-        <!-- <img alt="logo" src="../assets/img/cw-logo.png" height="45" /> -->
       </div>
     </a>
-    <!-- <div>
-      <button class="btn text-light" @click="toggleTheme">
-        <i class="mdi" :class="theme == 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'"></i>
-      </button>
-    </div> -->
-    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button> -->
-    <!-- <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto">
-        <li>
-          <router-link :to="{ name: 'About' }" class="btn text-success lighten-30 selectable text-uppercase">
-            About
-          </router-link>
-        </li>
-      </ul>
-    
-
-      <Login />
-    </div> -->
   </nav>
 </template>
 
