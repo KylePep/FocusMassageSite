@@ -54,7 +54,6 @@ export default {
 
 <style scoped lang="scss">
 .hero-image {
-  position: absolute;
   object-position: center center;
   object-fit: cover;
   height: 30vh;
@@ -69,15 +68,7 @@ export default {
   user-select: none;
 
   .home-card {
-    width: clamp(500px, 50vw, 100%);
-
-    >img {
-      height: 200px;
-      max-width: 200px;
-      width: 100%;
-      object-fit: contain;
-      object-position: center;
-    }
+    width: clamp(350px, 50vw, 100%);
   }
 }
 </style>

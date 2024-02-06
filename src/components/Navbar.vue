@@ -1,11 +1,9 @@
 <template>
-  <nav class="navbar navbar-expand-sm navbar-dark  px-3">
-    <a class="navbar-brand d-flex" href="https://danawhalen.glossgenius.com/services">
-      <div class="d-flex flex-column align-items-center bg-dark py-1 px-3 rounded">
-        Book Now
-      </div>
-    </a>
-  </nav>
+  <a class="position-absolute d-flex" href="https://danawhalen.glossgenius.com/services">
+    <div class="d-flex align-items-center bg-dark text-light py-1 px-3 m-2 rounded">
+      Book Now
+    </div>
+  </a>
 </template>
 
 <script>
@@ -34,24 +32,4 @@ export default {
 }
 </script>
 
-<style scoped>
-a:hover {
-  text-decoration: none;
-}
-
-.nav-link {
-  text-transform: uppercase;
-}
-
-.navbar-nav .router-link-exact-active {
-  border-bottom: 2px solid var(--bs-success);
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-@media screen and (min-width: 576px) {
-  nav {
-    height: 64px;
-  }
-}
-</style>
+<style scoped></style>
