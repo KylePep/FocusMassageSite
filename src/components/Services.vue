@@ -1,12 +1,21 @@
 <template>
   Services here
+  <div v-for="service in services" :key="service.id">
+    {{ service.name }}
+  </div>
 </template>
 
 
 <script>
+
+import { SERVICES_TYPES } from "../constants";
+
 export default {
   setup() {
-    return {}
+    const services = SERVICES_TYPES
+    return {
+      services
+    }
   }
 }
 </script>

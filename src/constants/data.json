@@ -1,0 +1,25 @@
+{
+  "SERVICES_TYPES":[
+    {
+      "id": 1,
+      "name": "60 Minute Massage",
+      "description": "60 Minute massage tailored to what you need focus on",
+      "price": 80,
+      "duration": 60
+    },
+    {
+      "id": 2,
+      "name": "90 Minute Massage",
+      "description": "60 Minute massage tailored to what you need focus on",
+      "price": 80,
+      "duration": 60
+    },
+    {
+      "id": 3,
+      "name": "120 Minute Massage",
+      "description": "60 Minute massage tailored to what you need focus on",
+      "price": 80,
+      "duration": 60
+    }
+  ]
+}
