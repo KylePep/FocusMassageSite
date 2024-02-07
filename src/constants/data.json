@@ -12,7 +12,7 @@
     {
       "id": 2,
       "name": "90 Minute Massage",
-      "description": "60 Minute massage tailored to what you need focus on",
+      "description": "90 minute massage with time to fit everything you need.",
       "image": "https://static.glossgenius.com/public/service/24618f4c066a8ac615b611ee9ed4178d8a9e4a8c/image/4e1f5dad09aa69396b8d5966b7e650b9.jpg",
       "price": "$110",
       "quantity": 1,
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "name": "120 Minute Massage",
-      "description": "60 Minute massage tailored to what you need focus on",
+      "description": "The most luxurious option. I would highly recommend if you truly love the full body massage experience",
       "image": "https://static.glossgenius.com/public/service/1e622c0420915e83d22cbf2efdc8ff250f24e06a/image/f3fe969ed1dda1518e0c99f5b10301e5.jpg",
       "price": "$160",
       "quantity": 1,

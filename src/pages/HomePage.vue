@@ -9,9 +9,6 @@
   </div>
   <div class=" flex-grow-1 d-flex flex-column align-items-center justify-content-center">
     <div class="home-card p-5 mt-3 align-items-center shadow rounded elevation-3">
-      <h2>
-        Services
-      </h2>
       <Services />
     </div>
   </div>

@@ -1,7 +1,12 @@
 <template>
-  <div v-for="service in  services " :key="service.id">
-    <ServiceCard :service="service" />
-  </div>
+  <h2 class="mb-3">
+    Services
+  </h2>
+  <section class="row">
+    <div class="col-4 m-auto" v-for="service in  services " :key="service.id">
+      <ServiceCard :service="service" />
+    </div>
+  </section>
 </template>
 
 
