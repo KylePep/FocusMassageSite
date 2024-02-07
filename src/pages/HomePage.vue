@@ -12,6 +12,7 @@
       <h2>
         Services
       </h2>
+      <Services />
     </div>
   </div>
   <div class=" flex-grow-1 d-flex flex-column align-items-center justify-content-center">
@@ -19,6 +20,7 @@
       <h2>
         Reviews
       </h2>
+      <Reviews />
     </div>
   </div>
   <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center">
@@ -26,36 +28,7 @@
       <h2>
         Hours
       </h2>
-      <table class="d-flex justify-content-center mt-3">
-        <tr>
-          <th>Sunday</th>
-          <td>Closed</td>
-        </tr>
-        <tr>
-          <th>Monday</th>
-          <td>Closed</td>
-        </tr>
-        <tr>
-          <th>Tuesday</th>
-          <td>11am - 6pm</td>
-        </tr>
-        <tr>
-          <th>Wednesday</th>
-          <td>8am - 1pm</td>
-        </tr>
-        <tr>
-          <th>Thursday</th>
-          <td>11am - 6pm</td>
-        </tr>
-        <tr>
-          <th>Friday</th>
-          <td>8am - 3pm</td>
-        </tr>
-        <tr>
-          <th>Saturday</th>
-          <td>Closed</td>
-        </tr>
-      </table>
+      <Hours />
     </div>
   </div>
   <div class=" flex-grow-1 d-flex flex-column align-items-center justify-content-center">
@@ -70,25 +43,28 @@
     </div>
   </div>
   <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    <div class="home-card p-5 mt-3 align-items-center shadow rounded elevation-3">
-      <h2>
-        Stuff
-      </h2>
-      <h2>
-        Things
-      </h2>
+    <div class="home-card p-5 mt-3 align-items-center rounded">
+      <h2>About</h2>
+      <h3>
+        Thank you for your interest in Focus Massage. I've been a practicing massage therapist 4 years now, and it is my
+        passion. Watch your mood and sleep improve with consistency and your aches and pains disappear. My specialties are
+        myofascial and deep tissue, but a massage with me might consist of several different techniques. All shapes and
+        sizes are welcome. If you think you need a massage, trust me, you deserve it.
+      </h3>
     </div>
   </div>
 </template>
 
 <script>
+import Reviews from "../components/Reviews.vue";
+import Services from "../components/Services.vue";
+
 
 export default {
   setup() {
-    return {
-
-    }
-  }
+    return {};
+  },
+  components: { Reviews, Services }
 }
 </script >
 
@@ -137,23 +113,5 @@ export default {
   place-content: center;
   text-align: center;
   user-select: none;
-}
-
-table {
-  border-spacing: 20px;
-}
-
-th,
-td {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-th {
-  text-align: left;
-}
-
-td {
-  text-align: right;
 }
 </style>
