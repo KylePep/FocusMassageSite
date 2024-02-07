@@ -3,7 +3,7 @@
     Services
   </h2>
   <section class="row">
-    <div class="col-4 m-auto" v-for="service in  services " :key="service.id">
+    <div class="col-12 col-md-4 m-auto" v-for="service in  services " :key="service.id">
       <ServiceCard :service="service" />
     </div>
   </section>

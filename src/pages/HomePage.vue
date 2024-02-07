@@ -8,12 +8,12 @@
       alt="">
   </div>
   <div class=" flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    <div class="home-card p-5 mt-3 align-items-center shadow rounded elevation-3">
+    <div class="home-card p-4 p-md-5 mt-3 align-items-center shadow rounded elevation-3">
       <Services />
     </div>
   </div>
   <div class=" flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    <div class="home-card p-5 mt-3 align-items-center shadow rounded elevation-3">
+    <div class="home-card p-4 p-md-5 mt-3 align-items-center shadow rounded elevation-3">
       <h2>
         Reviews
       </h2>
@@ -21,7 +21,7 @@
     </div>
   </div>
   <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    <div class="home-card p-5 mt-3 rounded">
+    <div class="home-card p-4 p-md-5 mt-3 rounded">
       <h2>
         Hours
       </h2>
@@ -29,7 +29,7 @@
     </div>
   </div>
   <div class=" flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    <div class="home-card p-5 mt-3 rounded">
+    <div class="home-card p-4 p-md-5 mt-3 rounded">
       <h2>
         Location
       </h2>
@@ -40,7 +40,7 @@
     </div>
   </div>
   <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    <div class="home-card p-5 mt-3 align-items-center rounded">
+    <div class="home-card p-4 p-md-5 my-3 align-items-center rounded">
       <h2>About</h2>
       <h3>
         Thank you for your interest in Focus Massage. I've been a practicing massage therapist 4 years now, and it is my
