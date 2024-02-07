@@ -1,7 +1,6 @@
 <template>
-  Services here
-  <div v-for="service in services" :key="service.id">
-    {{ service.name }}
+  <div v-for="service in  services " :key="service.id">
+    <ServiceCard :service="service" />
   </div>
 </template>
 

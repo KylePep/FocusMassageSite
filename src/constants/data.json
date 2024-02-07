@@ -4,22 +4,46 @@
       "id": 1,
       "name": "60 Minute Massage",
       "description": "60 Minute massage tailored to what you need focus on",
-      "price": 80,
+      "image": "https://static.glossgenius.com/public/service/f8a6a7396ea1dbc0080531d0b10dde4e5430fd05/image/888483ff3ead00bfa858781fade63653.jpg",
+      "price": "$80",
+      "quantity": 1,
       "duration": 60
     },
     {
       "id": 2,
       "name": "90 Minute Massage",
       "description": "60 Minute massage tailored to what you need focus on",
-      "price": 80,
+      "image": "https://static.glossgenius.com/public/service/24618f4c066a8ac615b611ee9ed4178d8a9e4a8c/image/4e1f5dad09aa69396b8d5966b7e650b9.jpg",
+      "price": "$110",
+      "quantity": 1,
       "duration": 60
     },
     {
       "id": 3,
       "name": "120 Minute Massage",
       "description": "60 Minute massage tailored to what you need focus on",
-      "price": 80,
+      "image": "https://static.glossgenius.com/public/service/1e622c0420915e83d22cbf2efdc8ff250f24e06a/image/f3fe969ed1dda1518e0c99f5b10301e5.jpg",
+      "price": "$160",
+      "quantity": 1,
       "duration": 60
+    },
+    {
+      "id": 4,
+      "name": "6x 60 Minute Massage Bundle",
+      "description": "Purchase 6 massages at a time for a huge savings! Perfect for a gift or to share! Must purchase in office. Use within 3 months of purchase.",
+      "image": "https://static.glossgenius.com/public/service/af56056b36dcac99f7b54c62f5fdc55948faa0f2/image/275e8d602c04d6fae9b71628c5245df5.jpg",
+      "price": "Price Varies",
+      "quantity": 6,
+      "duration": 60
+    },
+    {
+      "id": 5,
+      "name": "6x 90 Minute Massage Bundle",
+      "description": "Purchase 6 massages at a time for a huge savings! Perfect for a gift or to share! Must purchase in office. Use within 3 months of purchase.",
+      "image": "https://static.glossgenius.com/public/service/9b6a3bc2ce4b0e2d71f24d2f8aff2d9d5d54d5a6/image/bcf7ac2b8a58ecb6fdd22f5d8a198200.jpg",
+      "price": "Price Varies",
+      "quantity": 6,
+      "duration": 90
     }
   ]
 }
