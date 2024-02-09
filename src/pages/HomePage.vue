@@ -41,7 +41,7 @@
   </div>
   <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center">
     <div class="home-card p-4 p-md-5 my-3 align-items-center rounded">
-
+      <About />
     </div>
   </div>
 </template>
