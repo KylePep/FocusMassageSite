@@ -1,5 +1,5 @@
 <template>
-  Reviews here
+  Reviews are hard
 </template>
 
 
