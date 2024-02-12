@@ -14,17 +14,11 @@
   </div>
   <div class=" flex-grow-1 d-flex flex-column align-items-center justify-content-center">
     <div class="home-card p-4 pb-0 p-md-5 pb-md-0 mt-3 align-items-center shadow rounded elevation-3">
-      <h2>
-        Reviews
-      </h2>
       <Reviews />
     </div>
   </div>
   <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center">
     <div class="home-card p-4 p-md-5 mt-3 rounded">
-      <h2>
-        Hours
-      </h2>
       <Hours />
     </div>
   </div>

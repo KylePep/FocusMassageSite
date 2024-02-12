@@ -1,5 +1,8 @@
 <template>
   <div>
+    <h2>
+      Hours
+    </h2>
     <table class="d-flex justify-content-center mt-3">
       <tr>
         <th>Sunday</th>
