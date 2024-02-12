@@ -43,7 +43,7 @@
 <script>
 import About from "../components/About.vue";
 import Hours from "../components/Hours.vue";
-import Location from "../components/Location";
+import Location from "../components/Location.vue";
 import Reviews from "../components/Reviews.vue";
 import Services from "../components/Services.vue";
 
