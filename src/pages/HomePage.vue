@@ -70,12 +70,6 @@ export default {
   }
 }
 
-.google-map {
-  width: 100%;
-  height: 33vh;
-
-}
-
 .home-card {
   min-height: 40vh;
   color: antiquewhite;
