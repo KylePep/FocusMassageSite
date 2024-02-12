@@ -30,7 +30,7 @@
   </div>
   <div class=" flex-grow-1 d-flex flex-column align-items-center justify-content-center">
     <div class="home-card p-4 p-md-5 mt-3 rounded">
-
+      <Location />
     </div>
   </div>
   <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center">
@@ -41,6 +41,8 @@
 </template>
 
 <script>
+import Hours from "../components/Hours.vue";
+import Location from "../components/Location";
 import Reviews from "../components/Reviews.vue";
 import Services from "../components/Services.vue";
 
@@ -49,7 +51,7 @@ export default {
   setup() {
     return {};
   },
-  components: { Reviews, Services }
+  components: { Reviews, Services, Location, Hours }
 }
 </script >
 
