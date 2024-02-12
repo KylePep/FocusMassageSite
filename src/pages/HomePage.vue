@@ -41,6 +41,7 @@
 </template>
 
 <script>
+import About from "../components/About.vue";
 import Hours from "../components/Hours.vue";
 import Location from "../components/Location";
 import Reviews from "../components/Reviews.vue";
@@ -51,7 +52,7 @@ export default {
   setup() {
     return {};
   },
-  components: { Reviews, Services, Location, Hours }
+  components: { Reviews, Services, Location, Hours, About }
 }
 </script >
 
