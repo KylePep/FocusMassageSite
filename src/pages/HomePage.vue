@@ -8,12 +8,12 @@
       alt="">
   </div>
   <div class=" flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    <div class="home-card p-4 p-md-5 mt-3 align-items-center shadow rounded elevation-3">
+    <div class="home-card p-4 p-md-5 mt-3 align-items-center rounded">
       <Services />
     </div>
   </div>
   <div class=" flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    <div class="home-card p-4 pb-0 p-md-5 pb-md-0 mt-3 align-items-center shadow rounded elevation-3">
+    <div class="home-card p-4 pb-0 p-md-5 pb-md-0 mt-3 align-items-center rounded">
       <Reviews />
     </div>
   </div>
@@ -73,14 +73,18 @@ export default {
 .home-card {
   min-height: 40vh;
   color: antiquewhite;
+
+  text-align: center;
+  width: clamp(350px, 70vw, 100%);
+}
+
+.glassmorphism {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
-  text-align: center;
-  width: clamp(350px, 70vw, 100%);
 }
 
 .home {
