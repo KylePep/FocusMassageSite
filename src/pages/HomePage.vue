@@ -67,6 +67,7 @@ export default {
     height: 33vh;
     width: 100%;
     color: antiquewhite;
+    text-shadow: rgb(0, 0, 0) 1px 10px 10px;
   }
 }
 
