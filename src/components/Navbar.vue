@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar position-absolute d-flex">
+  <div class="navbar d-none d-md-flex position-absolute">
     <a class="" href="https://danawhalen.glossgenius.com/services">
       <button class="btn nav-button d-flex align-items-center text-light fw-bold py-3 px-5 ms-2 rounded">
         Book Now
@@ -38,9 +38,11 @@ export default {
 .navbar {
   width: 100%;
   height: 33vh;
+  pointer-events: none;
 }
 
 .nav-button {
+  pointer-events: auto;
   background-color: rgba(128, 128, 128, 0.491);
 }
 

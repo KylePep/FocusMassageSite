@@ -73,7 +73,6 @@ export default {
 .home-card {
   min-height: 40vh;
   color: antiquewhite;
-
   text-align: center;
   width: clamp(350px, 70vw, 100%);
 }
