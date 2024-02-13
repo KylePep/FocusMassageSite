@@ -3,9 +3,9 @@
     <h1 class="d-flex flex-column justify-content-center align-items-center text-center">
       Focus Massage
     </h1>
-    <img class=""
+    <img
       src="https://images.unsplash.com/photo-1574421233376-06f2ccf017f7?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      alt="">
+      alt="Focus Massage Hero Image">
   </div>
   <div class=" flex-grow-1 d-flex flex-column align-items-center justify-content-center">
     <div class="home-card p-4 p-md-5 mt-3 align-items-center rounded">
