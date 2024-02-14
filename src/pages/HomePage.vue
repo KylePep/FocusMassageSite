@@ -66,14 +66,14 @@ export default {
     z-index: 1;
     height: 33vh;
     width: 100%;
-    color: antiquewhite;
+    color: var(--text-main);
     text-shadow: rgb(0, 0, 0) 1px 10px 10px;
   }
 }
 
 .home-card {
-  min-height: 40vh;
-  color: antiquewhite;
+  // min-height: 40vh;
+  color: var(--text-main);
   text-align: center;
   width: clamp(350px, 70vw, 100%);
 }

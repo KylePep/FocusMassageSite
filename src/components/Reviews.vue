@@ -19,6 +19,6 @@ export default {
 <style lang="scss" scoped>
 .reviews {
   width: 100%;
-  min-height: 75vh;
+  min-height: 50vh;
 }
 </style>
