@@ -1,10 +1,6 @@
 <template>
   <div class="navbar d-none d-md-flex position-absolute">
-    <a class="" href="https://danawhalen.glossgenius.com/services">
-      <button class="btn nav-button d-flex align-items-center text-light fw-bold py-3 px-5 ms-2 rounded">
-        Book Now
-      </button>
-    </a>
+    <BookNow />
   </div>
 </template>
 
@@ -12,6 +8,7 @@
 import { onMounted, ref } from 'vue';
 import { loadState, saveState } from '../utils/Store.js';
 import Login from './Login.vue';
+import BookNow from "./BookNow.vue";
 export default {
   setup() {
 
@@ -30,7 +27,7 @@ export default {
       }
     }
   },
-  components: { Login }
+  components: { Login, BookNow }
 }
 </script>
 

@@ -7,20 +7,25 @@
       <ServiceCard :service="service" />
     </div>
   </section>
+  <section class="row d-flex d-md-none ">
+    <BookNow />
+  </section>
 </template>
 
 
 <script>
 
 import { SERVICES_TYPES } from "../constants";
+import BookNow from "./BookNow.vue";
 
 export default {
   setup() {
-    const services = SERVICES_TYPES
+    const services = SERVICES_TYPES;
     return {
       services
-    }
-  }
+    };
+  },
+  components: { BookNow }
 }
 </script>
 
