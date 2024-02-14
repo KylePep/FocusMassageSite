@@ -26,5 +26,8 @@ export default {
 
 :root {
   --main-height: calc(100vh - 32px - 64px);
+  --text-main: antiquewhite;
+  --color-main: teal;
+  --color-seconday: salmon;
 }
 </style>
