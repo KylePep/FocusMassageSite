@@ -3,7 +3,7 @@
     <h2>
       Hours
     </h2>
-    <table class="d-flex justify-content-center bg-primar mt-3">
+    <table class="mt-3">
       <tr>
         <th>Sunday</th>
         <td>Closed</td>
@@ -48,11 +48,17 @@ export default {
 
 <style lang="scss" scoped>
 tr:nth-child(even) {
-  background-color: #d6eeee22;
+  background-color: #d6eeee0f;
+}
+
+table {
+  width: 100%;
 }
 
 th,
 td {
+  padding-bottom: 8px;
+  padding-top: 8px;
   padding-left: 20px;
   padding-right: 20px;
 }
