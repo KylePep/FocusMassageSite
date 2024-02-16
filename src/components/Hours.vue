@@ -48,7 +48,7 @@ export default {
 
 <style lang="scss" scoped>
 tr:nth-child(even) {
-  background-color: #d6eeee0f;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(58, 64, 73, 0.35) 5%, rgba(58, 64, 73, 0.35) 95%, rgba(255, 255, 255, 0) 100%);
 }
 
 table {
