@@ -1,5 +1,5 @@
 <template>
-  <div class="hero-image-container border-bottom border-light border-3">
+  <div class="hero-image-container ">
     <h1 class="d-flex flex-column justify-content-center align-items-center text-center">
       Focus Massage
     </h1>
@@ -52,6 +52,7 @@ export default {
 
 <style scoped lang="scss">
 .hero-image-container {
+  border-bottom: 4px var(--text-main) solid;
 
   img {
     object-position: center 60%;

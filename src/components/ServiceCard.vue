@@ -35,6 +35,11 @@ export default {
 
 <style lang="scss" scoped>
 .service-card {
+  border-radius: 2px;
   min-height: 70vh;
+
+  img {
+    border-radius: 2px;
+  }
 }
 </style>

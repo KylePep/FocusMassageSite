@@ -7,7 +7,7 @@
       <ServiceCard :service="service" />
     </div>
   </section>
-  <section class="row d-flex d-md-none ">
+  <section class="row d-flex d-md-none mt-2 ">
     <BookNow />
   </section>
 </template>
