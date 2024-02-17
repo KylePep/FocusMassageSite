@@ -24,7 +24,7 @@ export default {
 }
 
 .nav-button:hover {
-  color: aliceblue;
+  color: whitesmoke;
   background-color: gray;
 }
 </style>
