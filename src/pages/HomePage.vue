@@ -68,6 +68,7 @@ export default {
     height: 33vh;
     width: 100%;
     color: var(--text-main);
+    font-weight: bold;
     text-shadow: rgb(0, 0, 0) 1px 10px 10px;
   }
 }
