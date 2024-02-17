@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar d-none d-md-flex position-absolute">
+  <div class="navbar d-none d-md-flex position-absolute ps-2">
     <BookNow />
   </div>
 </template>
